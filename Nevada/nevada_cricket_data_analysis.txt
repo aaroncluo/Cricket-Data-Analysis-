@@ -1,0 +1,73 @@
+
+Cricket Observation Data Analysis (Nevada, Non-Urban, Research-Grade)
+Generated on 2025-05-10 00:57:48
+============================================================
+
+1. Overview
+-----------
+Total Non-Urban, Research-Grade Observations: 982
+Unique Species Identified: 80
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+-----------------------
+Top 5 Most Observed Species:
+scientific_name
+Trimerotropis pallidipennis    288
+Schistocerca shoshone           88
+Anconia integra                 44
+Schistocerca nitens             41
+Aeoloplides tenuipennis         26
+
+3. Temporal Distribution
+------------------------
+Observations by Month:
+month
+January        3
+February      10
+March         32
+April         76
+May          116
+June         128
+July         177
+August       142
+September    143
+October      105
+November      37
+December      13
+Average Observations per Month: 81.83
+
+Observations by Year:
+year
+2005      1
+2008     14
+2009      3
+2010      7
+2011     13
+2012      2
+2013     21
+2014      8
+2015     13
+2016     29
+2017     25
+2018     48
+2019    100
+2020     76
+2021     74
+2022    192
+2023    277
+2024     71
+2025      8
+Average Observations per Year: 51.68
+
+4. Geographic Distribution
+--------------------------
+Latitude Range: 35.1047 to 41.9513
+Longitude Range: -119.9900 to -114.0572
+
+5. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Map and bar graph generated for visualization.
