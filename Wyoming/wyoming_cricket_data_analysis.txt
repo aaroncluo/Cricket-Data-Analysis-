@@ -1,0 +1,72 @@
+
+Cricket Observation Data Analysis (Wyoming, Non-Urban, Research-Grade)
+Generated on 2025-05-10 00:36:28
+============================================================
+
+1. Overview
+-----------
+Total Non-Urban, Research-Grade Observations: 469
+Unique Species Identified: 64
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+----------------------
+Top 5 Most Observed Species:
+scientific_name
+Melanoplus bivittatus        118
+Camnula pellucida             55
+Dissosteira carolina          33
+Arphia conspersa              23
+Trimerotropis verruculata     16
+
+3. Temporal Distribution
+-----------------------
+Observations by Month:
+month
+January        0
+February       0
+March          3
+April          3
+May           26
+June          35
+July          97
+August       204
+September     96
+October        5
+November       0
+December       0
+Average Observations per Month: 39.08
+
+Observations by Year:
+year
+1999      1
+2000      2
+2006      1
+2010      2
+2011      3
+2013      1
+2014      4
+2015      2
+2016      2
+2017     16
+2018     37
+2019     55
+2020     56
+2021     61
+2022     62
+2023     55
+2024    107
+2025      2
+Average Observations per Year: 26.06
+
+4. Geographic Distribution
+-------------------------
+Latitude Range: 41.0188 to 44.9911
+Longitude Range: -111.0096 to -104.0734
+
+5. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Map and bar graph generated for visualization.
