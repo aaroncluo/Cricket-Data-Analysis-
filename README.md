@@ -4,9 +4,12 @@ This project analyzes iNaturalist cricket observations for U.S. states, filterin
 
 The script generates a text report (<state>_cricket_data_analysis.txt), a monthly observation graph (<state>_cricket_observations_by_month.png), and an interactive HTML map (<state>_cricket_observations_map.html) viewable in a browser. 
 
+
+Updates-
 5/3 - Created project. Added data for Utah, Wyoming, Oregon and Nevada, US 2020 Census data and script
 
-5/20 - Added 13 more states: Washington, California, Idaho, Arizona, New Mexico, Texas, Oklahoma, Kansas, Colorodo, South Dakota, North Dakota, Nebraska, and Montana. That's the 17 western states combined with the previous ones added on 5/3. 
-Modified code to be able to handle two word names for New Mexico, South Dakota, and North Dakota
-Modified code to handle multiple states at once
+5/20 - Added 13 more states (Washington, California, Idaho, Arizona, New Mexico, Texas, Oklahoma, Kansas, Colorodo, South Dakota, North Dakota, Nebraska, and Montana. That's the 17 western states combined with the previous ones added on 5/3)
+
+- Modified code to be able to handle two word names for New Mexico, South Dakota, and North Dakota
+- Modified code to handle multiple states at once
 
