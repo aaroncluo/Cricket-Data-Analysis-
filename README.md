@@ -2,9 +2,9 @@
 This project analyzes iNaturalist cricket observations for U.S. states, filtering non-urban, research-grade data using the 2020 U.S. Census urban area shapefile. To start, download cricket data by state from iNaturalist as a csv (e.g., california_observations.csv) and save it to your project folder as statename_observations.csv. Get urban area data from the 2020 US Census link provided. Install dependencies with pip install pandas matplotlib seaborn folium geopandas shapely. 
 
 
-The script generates a text report (<state>_cricket_data_analysis.txt), a monthly observation graph (<state>_cricket_observations_by_month.png), and an interactive HTML map (<state>_cricket_observations_map.html) viewable in a browser. 
+cricket_analysis generates a text report (<state>_cricket_data_analysis.txt), a monthly observation graph (<state>_cricket_observations_by_month.png), and an interactive HTML map (<state>_cricket_observations_map.html) viewable in a browser. For results for each individual state look in the 17 western states folder.
 
-For results for each individual state look in the 17 western states folder. For the total analysis look in the combined analysis folder.
+There is also a summary analyzing all 17 western states. It includes observations for all states by month, season, and year, as well as the observations by state and also species by state. For the total analysis look in the combined analysis folder.
 
 <br/>
 <br/>
