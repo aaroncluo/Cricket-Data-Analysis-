@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1e323707d0b58fb19d5e5f2f5b53d112 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1e323707d0b58fb19d5e5f2f5b53d112" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1e323707d0b58fb19d5e5f2f5b53d112 = L.map(
+                "map_1e323707d0b58fb19d5e5f2f5b53d112",
+                {
+                    center: [43.808201474905886, -99.27898302035],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e9de7c09f828cbd233918e9eb20d54b8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e9de7c09f828cbd233918e9eb20d54b8.addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+            var circle_marker_c4fa8e1c3c42b432b8e210f923a91861 = L.circleMarker(
+                [43.748792, -101.941584],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_5ad99d8a8fa77598a8ef5219c93b0583 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64782cc1ab31f8a1df58d5d40939c7bc = $(`<div id="html_64782cc1ab31f8a1df58d5d40939c7bc" style="width: 100.0%; height: 100.0%;">Species: Gryllus<br>Date: 2013-07-25</div>`)[0];
+                popup_5ad99d8a8fa77598a8ef5219c93b0583.setContent(html_64782cc1ab31f8a1df58d5d40939c7bc);
+            
+        
+
+        circle_marker_c4fa8e1c3c42b432b8e210f923a91861.bindPopup(popup_5ad99d8a8fa77598a8ef5219c93b0583)
+        ;
+
+        
+    
+    
+            var circle_marker_8871d4e81808d9201e46e2e276381e56 = L.circleMarker(
+                [42.8541657, -97.8972907],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_d001a2206e32c8e8f3ad2fce2d6b9d50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a02564d0f9e82ff38c0e4d876016d93 = $(`<div id="html_2a02564d0f9e82ff38c0e4d876016d93" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2016-08-19</div>`)[0];
+                popup_d001a2206e32c8e8f3ad2fce2d6b9d50.setContent(html_2a02564d0f9e82ff38c0e4d876016d93);
+            
+        
+
+        circle_marker_8871d4e81808d9201e46e2e276381e56.bindPopup(popup_d001a2206e32c8e8f3ad2fce2d6b9d50)
+        ;
+
+        
+    
+    
+            var circle_marker_cbd823f8d62f0bd6acef1f4b4c898e2d = L.circleMarker(
+                [43.8854789734, -100.7113723755],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_a0989e6fa055ab1f1ff45bfb6141e660 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_302fac28eca3bdc6f34cffcf60b5fc6a = $(`<div id="html_302fac28eca3bdc6f34cffcf60b5fc6a" style="width: 100.0%; height: 100.0%;">Species: Gryllus veletis<br>Date: 2017-07-17</div>`)[0];
+                popup_a0989e6fa055ab1f1ff45bfb6141e660.setContent(html_302fac28eca3bdc6f34cffcf60b5fc6a);
+            
+        
+
+        circle_marker_cbd823f8d62f0bd6acef1f4b4c898e2d.bindPopup(popup_a0989e6fa055ab1f1ff45bfb6141e660)
+        ;
+
+        
+    
+    
+            var circle_marker_9292e64d72d4939774ae311cb32417cd = L.circleMarker(
+                [42.5377783333, -96.5279216667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_1d17dbba2f6d9ba13bebfbe521189492 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6959f79c6de943d51de6a03ccaa9adf = $(`<div id="html_d6959f79c6de943d51de6a03ccaa9adf" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2018-10-03</div>`)[0];
+                popup_1d17dbba2f6d9ba13bebfbe521189492.setContent(html_d6959f79c6de943d51de6a03ccaa9adf);
+            
+        
+
+        circle_marker_9292e64d72d4939774ae311cb32417cd.bindPopup(popup_1d17dbba2f6d9ba13bebfbe521189492)
+        ;
+
+        
+    
+    
+            var circle_marker_4b4ef5e83d7b079d3d0558fbc6e5f56d = L.circleMarker(
+                [45.61665, -96.99909],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_a061f531dbf839212522128975f0e0c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6edb750d58250299d24d56c243d03e82 = $(`<div id="html_6edb750d58250299d24d56c243d03e82" style="width: 100.0%; height: 100.0%;">Species: Oecanthus<br>Date: 2019-09-01</div>`)[0];
+                popup_a061f531dbf839212522128975f0e0c2.setContent(html_6edb750d58250299d24d56c243d03e82);
+            
+        
+
+        circle_marker_4b4ef5e83d7b079d3d0558fbc6e5f56d.bindPopup(popup_a061f531dbf839212522128975f0e0c2)
+        ;
+
+        
+    
+    
+            var circle_marker_9975b1cc273939c4441ba6fbc61a337b = L.circleMarker(
+                [42.5750419032, -96.5767718946],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_985040220a2f59f3e89efe3f6fe5b1e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a884665784b1f54b8c136de38be6a03b = $(`<div id="html_a884665784b1f54b8c136de38be6a03b" style="width: 100.0%; height: 100.0%;">Species: Neocurtilla hexadactyla<br>Date: 2020-08-08</div>`)[0];
+                popup_985040220a2f59f3e89efe3f6fe5b1e5.setContent(html_a884665784b1f54b8c136de38be6a03b);
+            
+        
+
+        circle_marker_9975b1cc273939c4441ba6fbc61a337b.bindPopup(popup_985040220a2f59f3e89efe3f6fe5b1e5)
+        ;
+
+        
+    
+    
+            var circle_marker_35a11eef18961b913c9e905bb01f75b6 = L.circleMarker(
+                [43.3228671221, -98.3470175734],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_72c3b560693e8580e382f3533477ab46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a5f284a47785de6df963226ceae869c = $(`<div id="html_1a5f284a47785de6df963226ceae869c" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2020-08-15</div>`)[0];
+                popup_72c3b560693e8580e382f3533477ab46.setContent(html_1a5f284a47785de6df963226ceae869c);
+            
+        
+
+        circle_marker_35a11eef18961b913c9e905bb01f75b6.bindPopup(popup_72c3b560693e8580e382f3533477ab46)
+        ;
+
+        
+    
+    
+            var circle_marker_36d586c326f7a481b57f1ba861b83699 = L.circleMarker(
+                [43.7664406328, -101.970845014],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_379948f7e6541fa22d46182e5d02db05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_220f819110d2edf4d58d34bb2e18be3b = $(`<div id="html_220f819110d2edf4d58d34bb2e18be3b" style="width: 100.0%; height: 100.0%;">Species: Oecanthus<br>Date: 2020-08-14</div>`)[0];
+                popup_379948f7e6541fa22d46182e5d02db05.setContent(html_220f819110d2edf4d58d34bb2e18be3b);
+            
+        
+
+        circle_marker_36d586c326f7a481b57f1ba861b83699.bindPopup(popup_379948f7e6541fa22d46182e5d02db05)
+        ;
+
+        
+    
+    
+            var circle_marker_aa0ad5b76d9e9a30d58c749f31861de5 = L.circleMarker(
+                [42.8930976589, -97.484601152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_e94f136fd1f0eaa524af703f390ec5ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_540d5bbcd9e725d277a0089a1ab98a37 = $(`<div id="html_540d5bbcd9e725d277a0089a1ab98a37" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2020-09-17</div>`)[0];
+                popup_e94f136fd1f0eaa524af703f390ec5ac.setContent(html_540d5bbcd9e725d277a0089a1ab98a37);
+            
+        
+
+        circle_marker_aa0ad5b76d9e9a30d58c749f31861de5.bindPopup(popup_e94f136fd1f0eaa524af703f390ec5ac)
+        ;
+
+        
+    
+    
+            var circle_marker_953b16a8f5c53077426cf897655c950e = L.circleMarker(
+                [42.78082, -96.88929667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_e33c8e06414448d10f2d6cd57a5cc636 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68d1e4f8fc05b91f065a25e1b0cfa543 = $(`<div id="html_68d1e4f8fc05b91f065a25e1b0cfa543" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2020-09-19</div>`)[0];
+                popup_e33c8e06414448d10f2d6cd57a5cc636.setContent(html_68d1e4f8fc05b91f065a25e1b0cfa543);
+            
+        
+
+        circle_marker_953b16a8f5c53077426cf897655c950e.bindPopup(popup_e33c8e06414448d10f2d6cd57a5cc636)
+        ;
+
+        
+    
+    
+            var circle_marker_67722c6600c713058cce210b8461dfa8 = L.circleMarker(
+                [43.8553804, -102.3396912],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_cfc49406eba63280d7a39d6a1a5d1a33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49c5305d4a980788cc8e755f75c8f126 = $(`<div id="html_49c5305d4a980788cc8e755f75c8f126" style="width: 100.0%; height: 100.0%;">Species: Oecanthus<br>Date: 2020-08-24</div>`)[0];
+                popup_cfc49406eba63280d7a39d6a1a5d1a33.setContent(html_49c5305d4a980788cc8e755f75c8f126);
+            
+        
+
+        circle_marker_67722c6600c713058cce210b8461dfa8.bindPopup(popup_cfc49406eba63280d7a39d6a1a5d1a33)
+        ;
+
+        
+    
+    
+            var circle_marker_b5ddd70a064efde9651d7322ee447d23 = L.circleMarker(
+                [43.8553804, -102.3396912],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_a6ed1bc8307d0a66d574e208f7bb4d57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3cb529c3ee564f71ef2f1e1417e8d83 = $(`<div id="html_c3cb529c3ee564f71ef2f1e1417e8d83" style="width: 100.0%; height: 100.0%;">Species: Oecanthus<br>Date: 2020-08-24</div>`)[0];
+                popup_a6ed1bc8307d0a66d574e208f7bb4d57.setContent(html_c3cb529c3ee564f71ef2f1e1417e8d83);
+            
+        
+
+        circle_marker_b5ddd70a064efde9651d7322ee447d23.bindPopup(popup_a6ed1bc8307d0a66d574e208f7bb4d57)
+        ;
+
+        
+    
+    
+            var circle_marker_05f202a430ed3ff3c4bc687b4f738929 = L.circleMarker(
+                [45.6984851843, -99.1122623086],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_c2eef386ad720cef612b3f7f5b2b8032 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d8999c31f719ca0a6cfcebccca6558d = $(`<div id="html_3d8999c31f719ca0a6cfcebccca6558d" style="width: 100.0%; height: 100.0%;">Species: Oecanthus<br>Date: 2016-07-31</div>`)[0];
+                popup_c2eef386ad720cef612b3f7f5b2b8032.setContent(html_3d8999c31f719ca0a6cfcebccca6558d);
+            
+        
+
+        circle_marker_05f202a430ed3ff3c4bc687b4f738929.bindPopup(popup_c2eef386ad720cef612b3f7f5b2b8032)
+        ;
+
+        
+    
+    
+            var circle_marker_de8eec2129e4defe92a83321256c8ac7 = L.circleMarker(
+                [45.518681, -100.40128],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_0baf1d4f458f3ace30b774b004091a01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_870d45d06076f4338730c7f4530f7cde = $(`<div id="html_870d45d06076f4338730c7f4530f7cde" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2021-08-04</div>`)[0];
+                popup_0baf1d4f458f3ace30b774b004091a01.setContent(html_870d45d06076f4338730c7f4530f7cde);
+            
+        
+
+        circle_marker_de8eec2129e4defe92a83321256c8ac7.bindPopup(popup_0baf1d4f458f3ace30b774b004091a01)
+        ;
+
+        
+    
+    
+            var circle_marker_e63776ef93cee44f0f1eb461cbe7bbe9 = L.circleMarker(
+                [42.7618862674, -96.9711117637],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_ff57790f210dde9d035de8b0ae5f3091 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45594e986f25c23f5968a42327fde49d = $(`<div id="html_45594e986f25c23f5968a42327fde49d" style="width: 100.0%; height: 100.0%;">Species: Oecanthus<br>Date: 2021-08-09</div>`)[0];
+                popup_ff57790f210dde9d035de8b0ae5f3091.setContent(html_45594e986f25c23f5968a42327fde49d);
+            
+        
+
+        circle_marker_e63776ef93cee44f0f1eb461cbe7bbe9.bindPopup(popup_ff57790f210dde9d035de8b0ae5f3091)
+        ;
+
+        
+    
+    
+            var circle_marker_743324bede464d9d503d4a2a6b033e03 = L.circleMarker(
+                [45.8117408752, -100.7908096313],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_7e2b5dba86db3a95c3a48d161144cac4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a976b236cc7dc28f4c856077d475827 = $(`<div id="html_4a976b236cc7dc28f4c856077d475827" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2021-08-28</div>`)[0];
+                popup_7e2b5dba86db3a95c3a48d161144cac4.setContent(html_4a976b236cc7dc28f4c856077d475827);
+            
+        
+
+        circle_marker_743324bede464d9d503d4a2a6b033e03.bindPopup(popup_7e2b5dba86db3a95c3a48d161144cac4)
+        ;
+
+        
+    
+    
+            var circle_marker_974e3c15a0814640a6bda6c81fbd98d2 = L.circleMarker(
+                [42.7640661913, -96.9714198873],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_ce35f93dfad97313f3cb87aded321045 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b6974182109838bb4dec74b33db03bc = $(`<div id="html_8b6974182109838bb4dec74b33db03bc" style="width: 100.0%; height: 100.0%;">Species: Oecanthus quadripunctatus<br>Date: 2021-08-31</div>`)[0];
+                popup_ce35f93dfad97313f3cb87aded321045.setContent(html_8b6974182109838bb4dec74b33db03bc);
+            
+        
+
+        circle_marker_974e3c15a0814640a6bda6c81fbd98d2.bindPopup(popup_ce35f93dfad97313f3cb87aded321045)
+        ;
+
+        
+    
+    
+            var circle_marker_f419996d429a1c8b1140b1700f4f912a = L.circleMarker(
+                [43.5727038046, -103.4415645897],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_b91d6b831a8e231bf2fae3cab36f4194 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3c314a4865486fe3122994a4e4f105a = $(`<div id="html_c3c314a4865486fe3122994a4e4f105a" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2021-08-04</div>`)[0];
+                popup_b91d6b831a8e231bf2fae3cab36f4194.setContent(html_c3c314a4865486fe3122994a4e4f105a);
+            
+        
+
+        circle_marker_f419996d429a1c8b1140b1700f4f912a.bindPopup(popup_b91d6b831a8e231bf2fae3cab36f4194)
+        ;
+
+        
+    
+    
+            var circle_marker_a7989519276cecfaaf79a7a202139f8f = L.circleMarker(
+                [42.8735025849, -96.9578071125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_1b204908ee3f7201f0cae9aa66fb4984 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_707ec4ce600e7986f93b00e849cf0f73 = $(`<div id="html_707ec4ce600e7986f93b00e849cf0f73" style="width: 100.0%; height: 100.0%;">Species: Oecanthus<br>Date: 2021-09-05</div>`)[0];
+                popup_1b204908ee3f7201f0cae9aa66fb4984.setContent(html_707ec4ce600e7986f93b00e849cf0f73);
+            
+        
+
+        circle_marker_a7989519276cecfaaf79a7a202139f8f.bindPopup(popup_1b204908ee3f7201f0cae9aa66fb4984)
+        ;
+
+        
+    
+    
+            var circle_marker_685243dae1291cb65e9b519f6ecd1368 = L.circleMarker(
+                [42.6722191259, -96.7900279425],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_16d1b3c143984d83b04224035a6f85ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de0c0c169726878baa87f6f68b821413 = $(`<div id="html_de0c0c169726878baa87f6f68b821413" style="width: 100.0%; height: 100.0%;">Species: Oecanthus argentinus<br>Date: 2021-09-24</div>`)[0];
+                popup_16d1b3c143984d83b04224035a6f85ca.setContent(html_de0c0c169726878baa87f6f68b821413);
+            
+        
+
+        circle_marker_685243dae1291cb65e9b519f6ecd1368.bindPopup(popup_16d1b3c143984d83b04224035a6f85ca)
+        ;
+
+        
+    
+    
+            var circle_marker_cf1203731ca577e754d31c6762bd81c8 = L.circleMarker(
+                [45.71435136, -99.13079276],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_c99222a904384f3db15f8bb2ceff2952 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6788ec56bd634159ab7153797510cd39 = $(`<div id="html_6788ec56bd634159ab7153797510cd39" style="width: 100.0%; height: 100.0%;">Species: Oecanthus<br>Date: 2021-11-11</div>`)[0];
+                popup_c99222a904384f3db15f8bb2ceff2952.setContent(html_6788ec56bd634159ab7153797510cd39);
+            
+        
+
+        circle_marker_cf1203731ca577e754d31c6762bd81c8.bindPopup(popup_c99222a904384f3db15f8bb2ceff2952)
+        ;
+
+        
+    
+    
+            var circle_marker_13061ac2c85fc7a9d74ca196bdcec37f = L.circleMarker(
+                [43.7335480589, -103.2753840509],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_e718af31e7848b0dc686c708f2c92e44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_caf357b98314ca3481a24210e735f5d8 = $(`<div id="html_caf357b98314ca3481a24210e735f5d8" style="width: 100.0%; height: 100.0%;">Species: Oecanthus quadripunctatus<br>Date: 2021-08-31</div>`)[0];
+                popup_e718af31e7848b0dc686c708f2c92e44.setContent(html_caf357b98314ca3481a24210e735f5d8);
+            
+        
+
+        circle_marker_13061ac2c85fc7a9d74ca196bdcec37f.bindPopup(popup_e718af31e7848b0dc686c708f2c92e44)
+        ;
+
+        
+    
+    
+            var circle_marker_20ffd2b9a366a439977122ba4f7e5341 = L.circleMarker(
+                [43.0816598054, -98.2951306924],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_669896a758490a407bbe7784179b703f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1272923b8803e0f94918e175656aaae4 = $(`<div id="html_1272923b8803e0f94918e175656aaae4" style="width: 100.0%; height: 100.0%;">Species: Gryllus veletis<br>Date: 2022-05-30</div>`)[0];
+                popup_669896a758490a407bbe7784179b703f.setContent(html_1272923b8803e0f94918e175656aaae4);
+            
+        
+
+        circle_marker_20ffd2b9a366a439977122ba4f7e5341.bindPopup(popup_669896a758490a407bbe7784179b703f)
+        ;
+
+        
+    
+    
+            var circle_marker_e0db367429e14fc97793344d911a649d = L.circleMarker(
+                [44.7810466667, -99.109],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_fc9604a524a93822d6856e4d4869c0be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaca3d053d71349216f4e2f360512579 = $(`<div id="html_eaca3d053d71349216f4e2f360512579" style="width: 100.0%; height: 100.0%;">Species: Gryllus veletis<br>Date: 2022-06-10</div>`)[0];
+                popup_fc9604a524a93822d6856e4d4869c0be.setContent(html_eaca3d053d71349216f4e2f360512579);
+            
+        
+
+        circle_marker_e0db367429e14fc97793344d911a649d.bindPopup(popup_fc9604a524a93822d6856e4d4869c0be)
+        ;
+
+        
+    
+    
+            var circle_marker_995d53979ed8a4f261f437c3b235fc08 = L.circleMarker(
+                [43.6105656462, -96.4607983525],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_2bfa4b907ee4a5c277873507be429711 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b232bf8c29917d7e834183a9328838a1 = $(`<div id="html_b232bf8c29917d7e834183a9328838a1" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2022-10-03</div>`)[0];
+                popup_2bfa4b907ee4a5c277873507be429711.setContent(html_b232bf8c29917d7e834183a9328838a1);
+            
+        
+
+        circle_marker_995d53979ed8a4f261f437c3b235fc08.bindPopup(popup_2bfa4b907ee4a5c277873507be429711)
+        ;
+
+        
+    
+    
+            var circle_marker_240352c37e2dfa4b7298a3b16d780bf8 = L.circleMarker(
+                [45.2556535587, -97.6834265086],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_076e12f8775a643a09ad56f568f4627c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1068509d282947e887de0935225c85f0 = $(`<div id="html_1068509d282947e887de0935225c85f0" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2022-10-10</div>`)[0];
+                popup_076e12f8775a643a09ad56f568f4627c.setContent(html_1068509d282947e887de0935225c85f0);
+            
+        
+
+        circle_marker_240352c37e2dfa4b7298a3b16d780bf8.bindPopup(popup_076e12f8775a643a09ad56f568f4627c)
+        ;
+
+        
+    
+    
+            var circle_marker_b640192d465800b42b841a7c40e195ed = L.circleMarker(
+                [43.2195446983, -96.5701688826],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_1511a8e09d3b7bf04a6a1bf05220e9ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7403a1847c3209cfbf640f0d2432c89 = $(`<div id="html_d7403a1847c3209cfbf640f0d2432c89" style="width: 100.0%; height: 100.0%;">Species: Oecanthus fultoni<br>Date: 2023-07-27</div>`)[0];
+                popup_1511a8e09d3b7bf04a6a1bf05220e9ea.setContent(html_d7403a1847c3209cfbf640f0d2432c89);
+            
+        
+
+        circle_marker_b640192d465800b42b841a7c40e195ed.bindPopup(popup_1511a8e09d3b7bf04a6a1bf05220e9ea)
+        ;
+
+        
+    
+    
+            var circle_marker_098d6904f80287489a45d727017804fe = L.circleMarker(
+                [43.2177470858, -96.5758542438],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_c2a2b255ad99502053a419622df29cf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7d4a42b1c3dcde9e7931d5956b3f2ba = $(`<div id="html_f7d4a42b1c3dcde9e7931d5956b3f2ba" style="width: 100.0%; height: 100.0%;">Species: Oecanthus fultoni<br>Date: 2023-08-29</div>`)[0];
+                popup_c2a2b255ad99502053a419622df29cf0.setContent(html_f7d4a42b1c3dcde9e7931d5956b3f2ba);
+            
+        
+
+        circle_marker_098d6904f80287489a45d727017804fe.bindPopup(popup_c2a2b255ad99502053a419622df29cf0)
+        ;
+
+        
+    
+    
+            var circle_marker_7e648a02b64fd67729b6758096ffb23b = L.circleMarker(
+                [43.4400143429, -103.4894850567],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_2088af139f0269cd1769c1c9fa0f61f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c644f7e66463ff5881e0e3e6238583b6 = $(`<div id="html_c644f7e66463ff5881e0e3e6238583b6" style="width: 100.0%; height: 100.0%;">Species: Oecanthus quadripunctatus<br>Date: 2023-09-16</div>`)[0];
+                popup_2088af139f0269cd1769c1c9fa0f61f9.setContent(html_c644f7e66463ff5881e0e3e6238583b6);
+            
+        
+
+        circle_marker_7e648a02b64fd67729b6758096ffb23b.bindPopup(popup_2088af139f0269cd1769c1c9fa0f61f9)
+        ;
+
+        
+    
+    
+            var circle_marker_4ccce301e99e9de88eccaa81ef80a698 = L.circleMarker(
+                [43.7582169917, -101.9293609634],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_077d51c51064385afeeae6fa9152be3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_984a04fa4b8d36d8da4d7c601a7cf056 = $(`<div id="html_984a04fa4b8d36d8da4d7c601a7cf056" style="width: 100.0%; height: 100.0%;">Species: Gryllus personatus<br>Date: 2023-07-08</div>`)[0];
+                popup_077d51c51064385afeeae6fa9152be3f.setContent(html_984a04fa4b8d36d8da4d7c601a7cf056);
+            
+        
+
+        circle_marker_4ccce301e99e9de88eccaa81ef80a698.bindPopup(popup_077d51c51064385afeeae6fa9152be3f)
+        ;
+
+        
+    
+    
+            var circle_marker_652e1b4fe61de0439ca343adc0021270 = L.circleMarker(
+                [43.76123, -101.9728033333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_266b61c30c4d8a965bbf518305999e23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_618f5dca10e425f4dfff9ebd5edc37a2 = $(`<div id="html_618f5dca10e425f4dfff9ebd5edc37a2" style="width: 100.0%; height: 100.0%;">Species: Gryllus veletis<br>Date: 2023-12-15</div>`)[0];
+                popup_266b61c30c4d8a965bbf518305999e23.setContent(html_618f5dca10e425f4dfff9ebd5edc37a2);
+            
+        
+
+        circle_marker_652e1b4fe61de0439ca343adc0021270.bindPopup(popup_266b61c30c4d8a965bbf518305999e23)
+        ;
+
+        
+    
+    
+            var circle_marker_2ab0eee9e7c6d9a3b99b9b76f8a548d1 = L.circleMarker(
+                [45.4761693127, -100.0993609548],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_91907b634ff5c18b2caeb35f3ca5165b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9937ae657ed32eb1923363e473c81140 = $(`<div id="html_9937ae657ed32eb1923363e473c81140" style="width: 100.0%; height: 100.0%;">Species: Gryllus pennsylvanicus<br>Date: 2023-08-07</div>`)[0];
+                popup_91907b634ff5c18b2caeb35f3ca5165b.setContent(html_9937ae657ed32eb1923363e473c81140);
+            
+        
+
+        circle_marker_2ab0eee9e7c6d9a3b99b9b76f8a548d1.bindPopup(popup_91907b634ff5c18b2caeb35f3ca5165b)
+        ;
+
+        
+    
+    
+            var circle_marker_f09ca7ff05acfefb8c1242bea9ffda3f = L.circleMarker(
+                [43.2723972222, -97.3440611111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_0363bb829b4eb4fd3f07adb5d45b24c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa51786e7273821116b9adad3d350cb5 = $(`<div id="html_aa51786e7273821116b9adad3d350cb5" style="width: 100.0%; height: 100.0%;">Species: Oecanthus quadripunctatus<br>Date: 2024-08-23</div>`)[0];
+                popup_0363bb829b4eb4fd3f07adb5d45b24c4.setContent(html_aa51786e7273821116b9adad3d350cb5);
+            
+        
+
+        circle_marker_f09ca7ff05acfefb8c1242bea9ffda3f.bindPopup(popup_0363bb829b4eb4fd3f07adb5d45b24c4)
+        ;
+
+        
+    
+    
+            var circle_marker_af986622157ff0ff5fb442382392c86d = L.circleMarker(
+                [43.79152724, -102.0883391],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1e323707d0b58fb19d5e5f2f5b53d112);
+        
+    
+        var popup_948d943d0341de167ebf1cc695148e2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb5a44276e90534f3fd6b50634bd4585 = $(`<div id="html_fb5a44276e90534f3fd6b50634bd4585" style="width: 100.0%; height: 100.0%;">Species: Oecanthus quadripunctatus<br>Date: 2024-08-26</div>`)[0];
+                popup_948d943d0341de167ebf1cc695148e2a.setContent(html_fb5a44276e90534f3fd6b50634bd4585);
+            
+        
+
+        circle_marker_af986622157ff0ff5fb442382392c86d.bindPopup(popup_948d943d0341de167ebf1cc695148e2a)
+        ;
+
+        
+    
+</script>
+</html>
