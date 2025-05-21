@@ -1,0 +1,65 @@
+
+Cricket Observation Data Analysis (Oklahoma, Non-Urban, Research-Grade)
+Generated on 2025-05-20 20:23:33
+============================================================
+
+1. Overview
+-----------
+Total Non-Urban, Research-Grade Observations: 94
+Unique Species Identified: 24
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+-----------------------
+Top 5 Most Observed Species:
+scientific_name
+Neocurtilla hexadactyla    17
+Hapithus agitator          16
+Gryllus pennsylvanicus      8
+Oecanthus niveus            7
+Velarifictorus micado       6
+
+3. Temporal Distribution
+------------------------
+Observations by Month:
+month
+January       1
+February      0
+March         0
+April         8
+May           7
+June          9
+July          7
+August       12
+September    26
+October      18
+November      6
+December      0
+Average Observations per Month: 7.83
+
+Observations by Year:
+year
+2004     1
+2008     1
+2016     1
+2017     8
+2018     4
+2019     7
+2020    11
+2021    24
+2022    14
+2023    14
+2024     9
+Average Observations per Year: 8.55
+
+4. Geographic Distribution
+--------------------------
+Latitude Range: 33.7346 to 36.9325
+Longitude Range: -100.5141 to -94.6334
+
+5. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Map and bar graph generated for visualization.

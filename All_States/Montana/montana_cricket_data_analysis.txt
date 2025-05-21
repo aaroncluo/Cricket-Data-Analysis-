@@ -1,0 +1,61 @@
+
+Cricket Observation Data Analysis (Montana, Non-Urban, Research-Grade)
+Generated on 2025-05-20 20:46:25
+============================================================
+
+1. Overview
+-----------
+Total Non-Urban, Research-Grade Observations: 35
+Unique Species Identified: 6
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+-----------------------
+Top 5 Most Observed Species:
+scientific_name
+Gryllus veletis           14
+Gryllus pennsylvanicus     5
+Oecanthus californicus     5
+Oecanthus argentinus       4
+Oecanthus                  4
+
+3. Temporal Distribution
+------------------------
+Observations by Month:
+month
+January      2
+February     0
+March        1
+April        2
+May          2
+June         5
+July         3
+August       6
+September    8
+October      6
+November     0
+December     0
+Average Observations per Month: 2.92
+
+Observations by Year:
+year
+2018    3
+2019    5
+2020    5
+2021    8
+2022    8
+2023    2
+2024    4
+Average Observations per Year: 5.00
+
+4. Geographic Distribution
+--------------------------
+Latitude Range: 45.0133 to 48.8271
+Longitude Range: -115.4559 to -104.5159
+
+5. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Map and bar graph generated for visualization.

@@ -1,0 +1,75 @@
+
+Cricket Observation Data Analysis (Utah, Non-Urban, Research-Grade)
+Generated on 2025-05-10 00:51:56
+============================================================
+
+1. Overview
+-----------
+Total Non-Urban, Research-Grade Observations: 1191
+Unique Species Identified: 76
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+-----------------------
+Top 5 Most Observed Species:
+scientific_name
+Melanoplus bivittatus        265
+Schistocerca lineata         107
+Melanoplus differentialis     99
+Dissosteira carolina          97
+Schistocerca shoshone         79
+
+3. Temporal Distribution
+------------------------
+Observations by Month:
+month
+January        0
+February       3
+March          1
+April         14
+May          112
+June         107
+July         216
+August       317
+September    277
+October      121
+November      22
+December       1
+Average Observations per Month: 99.25
+
+Observations by Year:
+year
+2004      2
+2005      1
+2006      1
+2007      2
+2008      3
+2009      1
+2010      1
+2011      4
+2012      6
+2013      3
+2014      2
+2015      6
+2016     26
+2017     30
+2018     47
+2019     93
+2020     79
+2021     98
+2022    235
+2023    363
+2024    188
+Average Observations per Year: 56.71
+
+4. Geographic Distribution
+--------------------------
+Latitude Range: 36.9993 to 41.9732
+Longitude Range: -114.0484 to -109.0459
+
+5. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Map and bar graph generated for visualization.

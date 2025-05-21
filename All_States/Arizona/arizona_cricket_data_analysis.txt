@@ -1,0 +1,71 @@
+
+Cricket Observation Data Analysis (Arizona, Non-Urban, Research-Grade)
+Generated on 2025-05-20 20:01:06
+============================================================
+
+1. Overview
+-----------
+Total Non-Urban, Research-Grade Observations: 493
+Unique Species Identified: 35
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+-----------------------
+Top 5 Most Observed Species:
+scientific_name
+Oecanthus californicus    139
+Gryllodes sigillatus       75
+Hoplosphyrum boreale       52
+Oecanthus texensis         30
+Gryllus staccato           20
+
+3. Temporal Distribution
+------------------------
+Observations by Month:
+month
+January       12
+February       8
+March          9
+April         11
+May           23
+June          30
+July          47
+August       108
+September    112
+October       73
+November      49
+December      11
+Average Observations per Month: 41.08
+
+Observations by Year:
+year
+2006     1
+2008     1
+2010     2
+2012     2
+2013     4
+2014     7
+2015     9
+2016    10
+2017    24
+2018    46
+2019    63
+2020    26
+2021    65
+2022    83
+2023    70
+2024    77
+2025     3
+Average Observations per Year: 29.00
+
+4. Geographic Distribution
+--------------------------
+Latitude Range: 31.3436 to 36.9816
+Longitude Range: -114.7686 to -109.0783
+
+5. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Map and bar graph generated for visualization.
