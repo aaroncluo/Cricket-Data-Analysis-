@@ -1,0 +1,74 @@
+
+Cricket Observation Data Analysis (California, Non-Urban, Research-Grade)
+Generated on 2025-05-20 18:01:45
+============================================================
+
+1. Overview
+-----------
+Total Non-Urban, Research-Grade Observations: 1863
+Unique Species Identified: 35
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+-----------------------
+Top 5 Most Observed Species:
+scientific_name
+Oecanthus californicus    381
+Gryllus                   369
+Gryllodes sigillatus      318
+Hoplosphyrum boreale      256
+Oecanthus                 112
+
+3. Temporal Distribution
+------------------------
+Observations by Month:
+month
+January       78
+February      58
+March         98
+April        158
+May          128
+June         112
+July         180
+August       238
+September    328
+October      249
+November     136
+December     100
+Average Observations per Month: 155.25
+
+Observations by Year:
+year
+2002      1
+2007      1
+2008      1
+2009      3
+2010      1
+2011      4
+2012      3
+2013      4
+2014     29
+2015     38
+2016     74
+2017    116
+2018    121
+2019    193
+2020    260
+2021    300
+2022    283
+2023    212
+2024    182
+2025     37
+Average Observations per Year: 93.15
+
+4. Geographic Distribution
+--------------------------
+Latitude Range: 32.4142 to 41.9780
+Longitude Range: -124.3410 to -114.2204
+
+5. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Map and bar graph generated for visualization.
