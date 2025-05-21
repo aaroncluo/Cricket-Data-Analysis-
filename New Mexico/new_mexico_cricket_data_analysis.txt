@@ -1,0 +1,67 @@
+
+Cricket Observation Data Analysis (New Mexico, Non-Urban, Research-Grade)
+Generated on 2025-05-20 20:12:42
+============================================================
+
+1. Overview
+-----------
+Total Non-Urban, Research-Grade Observations: 191
+Unique Species Identified: 24
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+-----------------------
+Top 5 Most Observed Species:
+scientific_name
+Oecanthus                             46
+Oecanthus californicus                35
+Oecanthus californicus pictipennis    31
+Hoplosphyrum boreale                  20
+Oecanthus quadripunctatus             11
+
+3. Temporal Distribution
+------------------------
+Observations by Month:
+month
+January       1
+February      0
+March         2
+April         2
+May           1
+June         12
+July         13
+August       59
+September    37
+October      52
+November      9
+December      3
+Average Observations per Month: 15.92
+
+Observations by Year:
+year
+2008     1
+2013     1
+2014     1
+2016     2
+2017     4
+2018    11
+2019    20
+2020    14
+2021    52
+2022    41
+2023    22
+2024    20
+2025     2
+Average Observations per Year: 14.69
+
+4. Geographic Distribution
+--------------------------
+Latitude Range: 31.8705 to 36.9591
+Longitude Range: -109.0558 to -103.1690
+
+5. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Map and bar graph generated for visualization.
