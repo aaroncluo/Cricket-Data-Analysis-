@@ -1,0 +1,153 @@
+
+Comprehensive Cricket Observation Data Analysis (17 Western U.S. States, Non-Urban, Research-Grade)
+Generated on 2025-05-20 21:33:09
+================================================================================
+
+1. Overview
+-----------
+Total States Analyzed: 17
+Total Non-Urban, Research-Grade Observations: 9603
+Total Unique Species Identified: 248
+Species Observed in Multiple States: 0
+Urban Areas Excluded: U.S. Census Bureau Urban Areas (2020)
+
+2. Species Distribution
+-----------------------
+Top 5 Most Observed Species Across All States:
+scientific_name
+Oecanthus californicus         779
+Melanoplus bivittatus          664
+Dissosteira carolina           509
+Trimerotropis pallidipennis    412
+Gryllus                        411
+
+Most Observed Species by State:
+       State                 Top Species  Top Species Count
+     Arizona      Oecanthus californicus                139
+  California      Oecanthus californicus                381
+    Colorado   Oecanthus quadripunctatus                 32
+       Idaho      Oecanthus californicus                 16
+      Kansas      Gryllus pennsylvanicus                 15
+     Montana             Gryllus veletis                 14
+    Nebraska      Gryllus pennsylvanicus                 20
+      Nevada Trimerotropis pallidipennis                288
+  New Mexico                   Oecanthus                 46
+North Dakota      Gryllus pennsylvanicus                 16
+    Oklahoma     Neocurtilla hexadactyla                 17
+      Oregon        Dissosteira carolina                370
+South Dakota      Gryllus pennsylvanicus                 11
+       Texas      Oecanthus californicus                146
+        Utah       Melanoplus bivittatus                265
+  Washington      Oecanthus californicus                 26
+     Wyoming       Melanoplus bivittatus                118
+
+3. Temporal Distribution
+------------------------
+Observations by Month (All States):
+month
+January       119
+February       94
+March         188
+April         397
+May           600
+June          808
+July         1405
+August       2401
+September    1874
+October      1063
+November      452
+December      202
+Average Observations per Month: 800.25
+
+Observations by Year (All States):
+year
+1972       1
+1999       1
+2000       2
+2001       1
+2002       1
+2004       4
+2005       3
+2006       4
+2007       8
+2008      24
+2009      11
+2010      18
+2011      32
+2012      22
+2013      47
+2014      68
+2015      81
+2016     195
+2017     317
+2018     510
+2019     970
+2020    1256
+2021    1284
+2022    1432
+2023    1997
+2024    1232
+2025      82
+Average Observations per Year: 355.67
+
+Observations by Season (All States):
+season
+Spring    1185
+Summer    4614
+Fall      3389
+Winter     415
+
+4. Geographic Distribution
+--------------------------
+Latitude Range (All States): 25.8516 to 48.8271
+Longitude Range (All States): -124.4997 to -93.6932
+
+5. State Comparisons
+--------------------
+Total Observations by State:
+       State  Total Observations
+     Arizona                 493
+  California                1863
+    Colorado                 160
+       Idaho                  49
+      Kansas                  86
+     Montana                  35
+    Nebraska                 103
+      Nevada                 982
+  New Mexico                 191
+North Dakota                  30
+    Oklahoma                  94
+      Oregon                2276
+South Dakota                  34
+       Texas                1475
+        Utah                1191
+  Washington                  72
+     Wyoming                 469
+
+Unique Species by State:
+       State  Unique Species
+     Arizona              35
+  California              35
+    Colorado              16
+       Idaho              10
+      Kansas              18
+     Montana               6
+    Nebraska              21
+      Nevada              80
+  New Mexico              24
+North Dakota               5
+    Oklahoma              24
+      Oregon              72
+South Dakota               9
+       Texas              59
+        Utah              76
+  Washington              13
+     Wyoming              64
+
+6. Notes
+--------
+- Data filtered for research-grade observations (quality_grade = 'research').
+- Excluded observations within U.S. Census Bureau Urban Areas (2020 shapefile).
+- Observations with invalid dates or coordinates were excluded.
+- Individual state reports, maps, and graphs generated.
+- Aggregate map, summary CSV, and additional graphs (observations by state, species, month, year, season) generated.
