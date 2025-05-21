@@ -8,7 +8,8 @@ The script generates a text report (<state>_cricket_data_analysis.txt), a monthl
 Updates-
 - 5/3 - Created project. Added data for Utah, Wyoming, Oregon and Nevada, US 2020 Census data and script
 
-- 5/20 - Added 13 more states (Washington, California, Idaho, Arizona, New Mexico, Texas, Oklahoma, Kansas, Colorodo, South Dakota, North Dakota, Nebraska, and Montana). That's the 17 western states combined with the previous ones added on 5/3.
+- 5/20 - Added 13 more states (Washington, California, Idaho, Arizona, New Mexico, Texas, Oklahoma, Kansas, Colorodo, South Dakota, North Dakota, Nebraska, and Montana). That's the 17 western states combined with the previous ones added on 5/3. Created 17_Western_States folder.
   - Modified code to be able to handle two word names for New Mexico, South Dakota, and North Dakota
   - Modified code to handle multiple states at once
-
+  - Created new script cricket_summary - does the same thing as cricket_analysis but also creates a summary for all the states
+  
