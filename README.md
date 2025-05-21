@@ -4,11 +4,11 @@ This project analyzes iNaturalist cricket observations for U.S. states, filterin
 
 The script generates a text report (<state>_cricket_data_analysis.txt), a monthly observation graph (<state>_cricket_observations_by_month.png), and an interactive HTML map (<state>_cricket_observations_map.html) viewable in a browser. 
 
-For results for each individual state look in the 17 western states folder. 
+For results for each individual state look in the 17 western states folder. For the total analysis look in the combined analysis folder.
 
 <br/>
 <br/>
-<br/>
+
 
 Updates-
 - 5/3 - Created project. Added data for Utah, Wyoming, Oregon and Nevada, US 2020 Census data and script
