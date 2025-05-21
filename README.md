@@ -6,7 +6,7 @@ The script generates a text report (<state>_cricket_data_analysis.txt), a monthl
 
 For results for each individual state look in the 17 western states folder. 
 
-< br / >
+<br/>
 
 Updates-
 - 5/3 - Created project. Added data for Utah, Wyoming, Oregon and Nevada, US 2020 Census data and script
